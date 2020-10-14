@@ -6,6 +6,10 @@ body{
     font-family: Work Sans, sans-serif, Gill Sans;
     box-sizing: border-box;
 }
+.btn-blue{
+    margin-left: 40px;
+    background: #0959C6 !important;
+}
 
 a{
     text-decoration: none !important;
@@ -350,11 +354,14 @@ li > a {
 
 @media (max-width: 767px) {
     body{
-        background-size: 35px;
+        background: none;
     }
     .nav-link, .nav-btn{
         font-size: 18px;
         margin-left: 0;
+    }
+    .btn-blue{
+        margin-top: 10px;
     }
     .hero-img{
         width: 320px;

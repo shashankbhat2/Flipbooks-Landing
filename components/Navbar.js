@@ -25,6 +25,9 @@ const NavBar = () => {
             <li class="nav-item">
                  <a type="button" class="btn btn-primary nav-btn" href="https://docs.google.com/forms/d/e/1FAIpQLScm_g2kjwpGBhjyAjqD4uttzFu59Lf9KH3L5vu2sBPouFbRpw/viewform" >Order Now</a>
             </li>
+            <li class="nav-item">
+                 <a type="button" class="btn btn-primary  btn-blue nav-btn" href="https://docs.google.com/forms/d/e/1FAIpQLSf6Rgxw2tazGeIsj71X2p9TpDuxrUxyGhieAiqYSPEuTZOM8Q/viewform" >Sell Books</a>
+            </li>
             </ul>
         </div>
         </div>

@@ -10,23 +10,23 @@ export default function Home() {
     <CustomHead description="Flipbooks delivers best in condition second hand books to your home anywhere in Bangalore at low prices"></CustomHead>
     <NavBar></NavBar>
     <div className="container-lg container-fluid hero">
-      <div class="row">
-        <div className="col-lg-5 col-sm-10">
-          <Zoom>
-          <p className="hero-content">Fall in <strong className="bold"> love </strong> with reading <strong className="bold">books</strong></p>
-          </Zoom>
-          <p className="hero-content-2">
-          Get your favourite book at half the price, delivered to your home and enjoy reading!
-          </p>
-          <a type="button" class="btn btn-primary mt-3" href="https://docs.google.com/forms/d/e/1FAIpQLScm_g2kjwpGBhjyAjqD4uttzFu59Lf9KH3L5vu2sBPouFbRpw/viewform" >Order Now</a>
-        </div>  
-        <div className="col-lg-3 col-sm-5">
-          <Fade>
-          <img src="static/hero.svg" className="hero-img"></img>
-          </Fade>
-        </div>  
+        <div class="row">
+            <div className="col-lg-5 col-sm-10">
+            <Zoom>
+            <p className="hero-content">Fall in <strong className="bold"> love </strong> with reading <strong className="bold">books</strong></p>
+            </Zoom>
+            <p className="hero-content-2">
+            Get your favourite book at half the price, delivered to your home and enjoy reading!
+            </p>
+            <a type="button" class="btn btn-primary mt-3" href="https://docs.google.com/forms/d/e/1FAIpQLScm_g2kjwpGBhjyAjqD4uttzFu59Lf9KH3L5vu2sBPouFbRpw/viewform" >Order Now</a>
+            </div>  
+            <div className="col-lg-3 col-sm-5">
+            <Fade>
+            <img src="static/hero.svg" className="hero-img"></img>
+            </Fade>
+            </div>  
+        </div>
       </div>
-    </div>
     <div className="why bg"> 
       <h3 className="title">Why order from Flipbooks?</h3>
       <div class="container mt-5">
