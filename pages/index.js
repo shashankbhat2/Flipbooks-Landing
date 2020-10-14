@@ -37,7 +37,7 @@ export default function Home() {
         </Zoom>
       </div>
       <div className="col-lg-9">
-        <div className="hw-content mt-0">
+        <div className="hw-content mt-4">
           <h3>Get books from anywhere in Bangalore</h3>
           <p className="hw-text">          Used books are available only in specific areas of Bengaluru. <br className="break"></br> With Flipbooks, get used books delivered to your table!</p>
         </div>
@@ -98,7 +98,7 @@ export default function Home() {
         <img src="static/plus.svg" class=" icons mr-3" alt="..."/>
         <div class="media-body">
           <h5 class="mt-0 how-text mt-4">Fill this <a href="https://docs.google.com/forms/d/e/1FAIpQLScm_g2kjwpGBhjyAjqD4uttzFu59Lf9KH3L5vu2sBPouFbRpw/viewform">form</a> with the book info
-          <br></br>or call us @ 7348955431 or 9686233329</h5>
+          <br></br>or call us @ <a href="tel:+91 7348955431">7348955431</a> or <a href="tel:+91 9686233329">9686233329</a></h5>
         </div>
       </div>
       </div>

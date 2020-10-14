@@ -37,7 +37,7 @@ export default class CustomSlider extends Component {
       ]
     };
     return (
-      <div className="mt-5">
+      <div className="mt-5 slider">
         <Slider {...settings}>
           <div>
           <div class="card fb-card">

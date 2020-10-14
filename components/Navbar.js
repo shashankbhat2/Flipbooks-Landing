@@ -3,9 +3,9 @@ import link from 'next/link'
 const NavBar = () => {
     return(
     // <div class="navbar-bg">
-    <nav class="navbar  navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-expand-lg navbar-light">
         <div className="container">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="/">
             <img src="static/logo.svg"></img>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -14,7 +14,7 @@ const NavBar = () => {
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav ml-auto mt-2">
             <li class="nav-item">
-                <a class="nav-link" href="#About">About <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="/about">About</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#Why">Why </a>
