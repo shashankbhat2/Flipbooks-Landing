@@ -22,7 +22,7 @@ export default function Home() {
             </div>  
             <div className="col-lg-3 col-sm-5">
             <Fade>
-            <img src="static/hero.svg" className="hero-img"></img>
+            <img src="static/hero.svg" className="hero-img" alt="Hero Image"></img>
             </Fade>
             </div>  
         </div>
@@ -33,7 +33,7 @@ export default function Home() {
       <div className="row" id="Why">
       <div className="col-lg-2">
         <Zoom>
-        <img src="static/map.svg" className="map"></img>
+        <img src="static/map.svg"  alt="map"  className="map"></img>
         </Zoom>
       </div>
       <div className="col-lg-9">
@@ -51,7 +51,7 @@ export default function Home() {
       <div className="col-lg-5">
         <div className="hw-content-2">
         <div className="col-lg-3 none">
-          <img src="static/discount.svg" className="discount"></img>
+          <img src="static/discount.svg"  alt="discount" className="discount"></img>
         </div>
           <h3 className="mt-5">Buy books with huge discounts</h3>
           <p className="hw-text">          Low on budget?
@@ -63,7 +63,7 @@ export default function Home() {
         </div>
         <div className="col-lg-3 all">
           <Zoom>
-          <img src="static/discount.svg" className="discount"></img>
+          <img src="static/discount.svg" alt="discount" className="discount"></img>
           </Zoom>
         </div>
         </div>
@@ -75,7 +75,7 @@ export default function Home() {
       <div className="row" id="Why">
       <div className="col-lg-2">
         <Zoom>
-        <img src="static/del.svg" className="del"></img>
+        <img src="static/del.svg" alt="delivery"  className="del"></img>
         </Zoom>
       </div>
       <div className="col-lg-9">

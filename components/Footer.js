@@ -10,7 +10,6 @@ const Footer = () => {
                 <li><a href="/about">About</a></li>
                 <li><a href="static/tc.pdf">Terms & Conditions</a></li>
                 <li><a href="static/safe.pdf">Safety Measures</a></li>
-                <li><a>Contact</a></li>
                 <li><a href="static/sitemap.xml">Sitemap</a></li>
                 <br/>
                 <div class="mr-auto">

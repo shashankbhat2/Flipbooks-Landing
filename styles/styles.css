@@ -227,6 +227,9 @@ li > a {
     list-style: none;
     font-size: 18px;
 }
+.links > li{
+    margin-top: 8px;
+}
 .credits{
     margin-top: 20px;
     color: white;
