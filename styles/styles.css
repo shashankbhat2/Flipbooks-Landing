@@ -163,7 +163,7 @@ a{
     margin-bottom: 100px !important;
 }
 .fb-card{
-    width: 400px  !important;
+    margin-left: 20px;
     font-size: 20px;
 }
 .fbtitle{
@@ -186,9 +186,10 @@ a{
     font-weight: 600;   
 }
 .quote{
-    color: #005DDB;
+    color: #2D9CDB;
     width: 350px;
     padding: 10px;
+    font-weight: 400;
     font-size: 15px;
 }
 .banner{
