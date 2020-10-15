@@ -7,11 +7,7 @@ export default class CustomSlider extends Component {
     const settings = {
       dots: true,
       infinite: true,
-<<<<<<< HEAD
       autoplay: true,
-=======
-      autoplay: false,
->>>>>>> 97614fa682b7a9594a8ef88b30b6449274b388f3
       pauseOnHover: true,
       slidesToShow: 2,
       slidesToScroll: 2,
