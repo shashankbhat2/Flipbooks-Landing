@@ -9,6 +9,9 @@ export default class CustomSlider extends Component {
       infinite: true,
       slidesToShow: 2,
       slidesToScroll: 2,
+      autoplay: true,
+      autoplaySpeed: 2000,
+      pauseOnHover: true,
       responsive: [
         {
           breakpoint: 1024,
