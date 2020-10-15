@@ -7,7 +7,11 @@ export default class CustomSlider extends Component {
     const settings = {
       dots: true,
       infinite: true,
+<<<<<<< HEAD
       autoplay: true,
+=======
+      autoplay: false,
+>>>>>>> 97614fa682b7a9594a8ef88b30b6449274b388f3
       pauseOnHover: true,
       slidesToShow: 2,
       slidesToScroll: 2,
@@ -41,43 +45,29 @@ export default class CustomSlider extends Component {
     return (
       <div className="mt-5">
         <Slider {...settings}>
-          <div>
-          <div class="card fb-card">
-            <div class="card-body quote">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit            </div>
-            <p class="card-text">- Ronald Richards</p>
+          <div class="card  m-3 w-auto fb-card">
+            <div class="card-body w-auto quote">
+            I just love buying books from Flipbooks. The experience has been tremendously amazing. Please continue your service to me. Love everything about you guys.
+            <p class="card-text">- Bhavana gowda</p>
           </div>
           </div>
-          <div>
-          <div class="card fb-card">
-            <div class="card-body quote">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit            </div>
-            <p class="card-text">- Ronald Richards</p>
+          <div class="card  m-3 w-auto fb-card">
+            <div class="card-body w-auto  quote">
+            Amazing service, would surely recommend it to others.            
+            <p class="card-text">- Harshitha</p>
           </div>
           </div>
-          <div>
-          <div class="card fb-card">
-            <div class="card-body quote">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit            </div>
-            <p class="card-text">- Ronald Richards</p>
+          <div class="card  m-3 w-auto fb-card">
+            <div class="card-body w-auto quote">
+            Very comfortable with Flipbooks! Love the experience and now definitely my go to person for novels!
+            <p class="card-text">- Pooja Chowdary</p>
           </div>
           </div>
-          <div>
-          <div class="card fb-card">
-            <div class="card-body quote">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit            </div>
-            <p class="card-text">- Ronald Richards</p>
+          <div class="card  m-3 w-auto fb-card">
+            <div class="card-body w-auto quote">
+            Doing great! No complaints or suggestions. Good luck for your future           
+             <p class="card-text">- Vijay Raghavan</p>
           </div>
-          </div>
-          <div>
-          <div class="card fb-card">
-          <div class="card fb-card">
-            <div class="card-body quote">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit            </div>
-            <p class="card-text">- Ronald Richards</p>
-          </div>
-          </div>
-          <br></br>
           </div>
         </Slider>
       </div>

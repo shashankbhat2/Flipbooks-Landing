@@ -43,7 +43,7 @@ const CustomHead = ({title, description}) => {
             <meta property="og:title" content="Flipbooks" />
             <meta name="og:description" content={description} />
             <meta property="og:url" content={url} />
-            <meta property="og:site_name" content="Adithya NR" />
+            <meta property="og:site_name" content="Flipbooks | Get books delivered to your home!" />
             <meta property="og:image" content="../../public/static/logo_black.svg" />
             <meta
                 name="keywords"

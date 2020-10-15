@@ -10,34 +10,34 @@ export default function Home() {
     <CustomHead description="Flipbooks delivers best in condition second hand books to your home anywhere in Bangalore at low prices"></CustomHead>
     <NavBar></NavBar>
     <div className="container-lg container-fluid hero">
-      <div class="row">
-        <div className="col-lg-5 col-sm-10">
-          <Zoom>
-          <p className="hero-content">Fall in <strong className="bold"> love </strong> with reading <strong className="bold">books</strong></p>
-          </Zoom>
-          <p className="hero-content-2">
-          Get your favourite book at half the price, delivered to your home and enjoy reading!
-          </p>
-          <a type="button" class="btn btn-primary mt-3" href="https://docs.google.com/forms/d/e/1FAIpQLScm_g2kjwpGBhjyAjqD4uttzFu59Lf9KH3L5vu2sBPouFbRpw/viewform" >Order Now</a>
-        </div>  
-        <div className="col-lg-3 col-sm-5">
-          <Fade>
-          <img src="static/hero.svg" className="hero-img"></img>
-          </Fade>
-        </div>  
+        <div class="row">
+            <div className="col-lg-5 col-sm-10">
+            <Zoom>
+            <p className="hero-content">Fall in <strong className="bold"> love </strong> with reading <strong className="bold">books</strong></p>
+            </Zoom>
+            <p className="hero-content-2">
+            Get your favourite book at half the price, delivered to your home and enjoy reading!
+            </p>
+            <a type="button" class="btn btn-primary mt-3" href="https://docs.google.com/forms/d/e/1FAIpQLScm_g2kjwpGBhjyAjqD4uttzFu59Lf9KH3L5vu2sBPouFbRpw/viewform" >Order Now</a>
+            </div>  
+            <div className="col-lg-3 col-sm-5">
+            <Fade>
+            <img src="static/hero.svg" className="hero-img" alt="Hero Image"></img>
+            </Fade>
+            </div>  
+        </div>
       </div>
-    </div>
     <div className="why bg"> 
       <h3 className="title">Why order from Flipbooks?</h3>
       <div class="container mt-5">
       <div className="row" id="Why">
       <div className="col-lg-2">
         <Zoom>
-        <img src="static/map.svg" className="map"></img>
+        <img src="static/map.svg"  alt="map"  className="map"></img>
         </Zoom>
       </div>
       <div className="col-lg-9">
-        <div className="hw-content mt-0">
+        <div className="hw-content mt-4">
           <h3>Get books from anywhere in Bangalore</h3>
           <p className="hw-text">          Used books are available only in specific areas of Bengaluru. <br className="break"></br> With Flipbooks, get used books delivered to your table!</p>
         </div>
@@ -51,7 +51,7 @@ export default function Home() {
       <div className="col-lg-5">
         <div className="hw-content-2">
         <div className="col-lg-3 none">
-          <img src="static/discount.svg" className="discount"></img>
+          <img src="static/discount.svg"  alt="discount" className="discount"></img>
         </div>
           <h3 className="mt-5">Buy books with huge discounts</h3>
           <p className="hw-text">          Low on budget?
@@ -63,7 +63,7 @@ export default function Home() {
         </div>
         <div className="col-lg-3 all">
           <Zoom>
-          <img src="static/discount.svg" className="discount"></img>
+          <img src="static/discount.svg" alt="discount" className="discount"></img>
           </Zoom>
         </div>
         </div>
@@ -75,7 +75,7 @@ export default function Home() {
       <div className="row" id="Why">
       <div className="col-lg-2">
         <Zoom>
-        <img src="static/del.svg" className="del"></img>
+        <img src="static/del.svg" alt="delivery"  className="del"></img>
         </Zoom>
       </div>
       <div className="col-lg-9">
@@ -98,7 +98,7 @@ export default function Home() {
         <img src="static/plus.svg" class=" icons mr-3" alt="..."/>
         <div class="media-body">
           <h5 class="mt-0 how-text mt-4">Fill this <a href="https://docs.google.com/forms/d/e/1FAIpQLScm_g2kjwpGBhjyAjqD4uttzFu59Lf9KH3L5vu2sBPouFbRpw/viewform">form</a> with the book info
-          <br></br>or call us @ 7348955431 or 9686233329</h5>
+          <br></br>or call us @ <a href="tel:+91 7348955431">7348955431</a> or <a href="tel:+91 9686233329">9686233329</a></h5>
         </div>
       </div>
       </div>

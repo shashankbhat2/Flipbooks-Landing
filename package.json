@@ -10,7 +10,9 @@
   "dependencies": {
     "animate.css": "^4.1.1",
     "next": "9.5.5",
+    "nextjs-sitemap-generator": "^1.1.0",
     "react": "16.13.1",
+    "react-back-to-top-button": "0.0.14",
     "react-dom": "16.13.1",
     "react-reveal": "^1.2.2",
     "react-slick": "^0.27.11",
