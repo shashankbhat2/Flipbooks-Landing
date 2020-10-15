@@ -163,7 +163,7 @@ a{
     margin-bottom: 100px !important;
 }
 .fb-card{
-    margin-left: 20px;
+    width: 400px  !important;
     font-size: 20px;
 }
 .fbtitle{
@@ -187,7 +187,8 @@ a{
 }
 .quote{
     color: #005DDB;
-    font-style: italic;
+    width: 350px;
+    padding: 10px;
     font-size: 15px;
 }
 .banner{
@@ -472,6 +473,9 @@ li > a {
     }
     .slider{
         overflow: hidden;
+    }
+    .fb-card{
+        padding-left: 10px;
     }
     .fbtitle > h3{
         margin-left: 80px;

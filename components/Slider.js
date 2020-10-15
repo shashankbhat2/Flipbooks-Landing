@@ -7,8 +7,10 @@ export default class CustomSlider extends Component {
     const settings = {
       dots: true,
       infinite: true,
-      slidesToShow: 2,
-      slidesToScroll: 2,
+      className: "center",
+      centerMode: true,
+      slidesToShow: 4,
+      slidesToScroll: 4,
       autoplay: true,
       autoplaySpeed: 2000,
       pauseOnHover: true,
@@ -25,9 +27,9 @@ export default class CustomSlider extends Component {
         {
           breakpoint: 600,
           settings: {
-            slidesToShow: 1,
-            slidesToScroll:1,
-            initialSlide: 1
+            slidesToShow: 2,
+            slidesToScroll: 2,
+            initialSlide: 2
           }
         },
         {
@@ -38,48 +40,34 @@ export default class CustomSlider extends Component {
           }
         }
       ]
+
     };
     return (
       <div className="mt-5 slider">
         <Slider {...settings}>
-          <div>
+          <div class="card fb-card ml-3">
+            <div class="card-body quote">
+            I just love buying books from Flipbooks. The experience has been tremendously amazing. Please continue your service. Love everything about you guys. <p class="card-text">- Bhavana Gowda</p>
+          </div>
+          </div>
           <div class="card fb-card">
             <div class="card-body quote">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit            </div>
-            <p class="card-text">- Ronald Richards</p>
+            Amazing service, would surely recommend it to others. <p class="card-text">- Harshitha</p>
           </div>
           </div>
-          <div>
           <div class="card fb-card">
             <div class="card-body quote">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit            </div>
-            <p class="card-text">- Ronald Richards</p>
+            Very comfortable with Flipbooks! Love the experience and now definitely my go to person for novels!
+            <p class="card-text">- Pooja Chowdary</p>
+            </div>
           </div>
-          </div>
-          <div>
           <div class="card fb-card">
             <div class="card-body quote">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit            </div>
-            <p class="card-text">- Ronald Richards</p>
-          </div>
-          </div>
-          <div>
-          <div class="card fb-card">
-            <div class="card-body quote">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit            </div>
-            <p class="card-text">- Ronald Richards</p>
-          </div>
-          </div>
-          <div>
-          <div class="card fb-card">
-          <div class="card fb-card">
-            <div class="card-body quote">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit            </div>
-            <p class="card-text">- Ronald Richards</p>
-          </div>
+            Doing great! No complaints or suggestions. Good luck for your future
+            <p class="card-text">- Vijay Raghavan</p>
+            </div>
           </div>
           <br></br>
-          </div>
         </Slider>
       </div>
     );
