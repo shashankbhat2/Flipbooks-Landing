@@ -2,7 +2,6 @@ import link from 'next/link'
 
 const NavBar = () => {
     return(
-    // <div class="navbar-bg">
     <nav class="navbar navbar-expand-lg navbar-light">
         <div className="container">
         <a class="navbar-brand" href="/">
@@ -32,7 +31,6 @@ const NavBar = () => {
         </div>
         </div>
      </nav>    
-    //  </div>
     )
 }
 

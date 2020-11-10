@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    background: url('../public/static/nav-pattern.svg');
+    /* background: url('../public/static/nav-pattern.svg'); */
     background-repeat: no-repeat;
     padding: 0;
     font-family: Work Sans, sans-serif, Gill Sans;
@@ -27,7 +27,7 @@ a{
 }
 
 .hero{
-    margin-top: 100px !important;
+    margin-top: 50px !important;
 }
 
 .hero-content{
@@ -59,7 +59,7 @@ a{
 
 
 
-.bg{
+/* .bg{
     background: url(../public/static/stripes.svg);
     background-repeat: no-repeat;
     background-position-y: -300px;
@@ -79,7 +79,7 @@ a{
     background-repeat: no-repeat;
     background-position-y: -370px;
     background-position-x: -550px;
-}
+} */
 
 .title{
     margin-top: 100px;
@@ -267,6 +267,25 @@ li > a {
 .tagline{
     font-size: 24px;
 }
+.float{
+	position:fixed;
+	width:70px;
+	height:70px;
+	bottom:20px;
+	right:10px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+    font-size:40px;
+	box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+    z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
+
 
 @media screen and (min-width: 992px) and (max-width: 1282px) {
     body{

@@ -9,6 +9,9 @@ export default function Home() {
     <>
     <CustomHead description="Flipbooks delivers best in condition second hand books to your home anywhere in Bangalore at low prices"></CustomHead>
     <NavBar></NavBar>
+    <a href="https://wa.me/message/MUR7NZNPZANQC1" class="float" id="wa" target="_blank">
+    <i class="fa fa-whatsapp my-float"></i>
+    </a>  
     <div className="container-lg container-fluid hero">
         <div class="row">
             <div className="col-lg-5 col-sm-10">

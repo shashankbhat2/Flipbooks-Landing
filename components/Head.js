@@ -47,7 +47,7 @@ const CustomHead = ({title, description}) => {
             <meta property="og:image" content="../../public/static/logo_black.svg" />
             <meta
                 name="keywords"
-                content="flipbooks, Flipbooks Bangalore, books to read, books, bookstore, books for upsc, books app ,books delivery, novels, book delivery Bangalore, books near me, college books, books home delivery, books in Jayanagar, books in Koramangala, books near Lakkasandra"
+                content="Flipbooks , flipbooks, Flipbooks Bangalore, books to read, books, bookstore, books for upsc, books app ,books delivery, novels, book delivery Bangalore, books near me, college books, books home delivery, books in Jayanagar, books in Koramangala, books near Lakkasandra"
             />
         </NextHead>
     )
