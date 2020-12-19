@@ -2,7 +2,7 @@ import link from 'next/link'
 
 const NavBar = () => {
     return(
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-expand-lg navbar-light mt-3 mb-3">
         <div className="container">
         <a class="navbar-brand" href="/">
             <img src="static/logo.svg" alt="Flipbooks"></img>
