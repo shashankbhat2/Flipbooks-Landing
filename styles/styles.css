@@ -59,28 +59,6 @@ a{
 
 
 
-/* .bg{
-    background: url(../public/static/stripes.svg);
-    background-repeat: no-repeat;
-    background-position-y: -300px;
-    background-position-x: -600px;
-}
-
-.bg2{
-    background: url(../public/static/stripestwo.svg);
-    background-repeat: no-repeat;
-    background-position-y: -750px;
-    background-position-x: 1150px;
-}
-
-
-.bg3{
-    background: url(../public/static/stripes.svg);
-    background-repeat: no-repeat;
-    background-position-y: -370px;
-    background-position-x: -550px;
-} */
-
 .title{
     margin-top: 100px;
     margin-bottom: 100px;
